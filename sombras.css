@@ -1,0 +1,31 @@
+
+/*Estamos usando una fuent descargada nombrando con nuevo nombre y identificando su tipo*/
+@font-face{
+  font-family: pixel;
+  src: url(../fuente/Tiny5-Regular.ttf) format(TrueType)}
+
+
+.caja1{
+border: 3px solid rgb(247, 223, 9);
+width: 400px;
+height: 200px;
+margin: 50px auto;
+padding: 10px;
+border-radius: 22px;
+/*Sombras a la caja*/
+/*box-shadow: -10px -12px 10px orange inset;*/
+box-shadow: 0 0 20px rgb(150, 105, 223) inset;
+
+}
+
+.caja1 h1{
+text-align: center;
+font-family: pixel;
+/*text-shadow: 2px 2px 2px green;*/
+text-shadow: 0 0 10px rgb(234, 235, 236);
+}
+
+.caja1 p{
+text-align: justify;
+font-family: pixel;
+}
